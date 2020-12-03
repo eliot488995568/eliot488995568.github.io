@@ -1171,9 +1171,45 @@ input[type='checkbox'] {
 	margin-bottom: 1.75rem;
 }
 
+.tabs #tab-4 .list-unstyled .fas {
+	color: #d72631;
+	font-size: 0.5rem;
+	line-height: 1.375rem;
+}
+
+.tabs #tab-4 .list-unstyled .media-body {
+	margin-left: 0.625rem;
+}
+
+.tabs #tab-4 .list-unstyled {
+	margin-bottom: 1.75rem;
+}
+
+.tabs #tab-5 .list-unstyled .fas {
+	color: #d72631;
+	font-size: 0.5rem;
+	line-height: 1.375rem;
+}
+
+.tabs #tab-5 .list-unstyled .media-body {
+	margin-left: 0.625rem;
+}
+
+.tabs #tab-5 .list-unstyled {
+	margin-bottom: 1.75rem;
+}
+
+.tabs #tab-5 .list-unstyled .media-bullet {
+	color: #d72631;
+	font-weight: 600;
+	font-size: 2rem;
+	line-height: 2rem;
+}
+
 .tabs .area-2 {
 	height: 27rem;
-	background: url('../images/details-2-background.jpg') center center no-repeat;
+	/*background: url('../images/details-2-background.jpg') center center no-repeat;*/
+	background: url('https://www.hoteljulesverne.com/media/cache/jadro_resize/rc/1LwavyIV1594970613/jadroRoot/medias/ter-3-recadre.jpg') center center no-repeat;
 	background-size: cover;
 }
 
@@ -1962,6 +1998,16 @@ a:hover.back-to-top {
 	.tabs #tab-2 .list-unstyled.first {
 		margin-right: 2rem;
 	}
+
+	.tabs #tab-5 .list-unstyled {
+		display: inline-block;
+		width: 45%;
+		margin-top: 0;
+	}
+
+	.tabs #tab-5 .list-unstyled.first {
+		margin-right: 2rem;
+	}
 	/* end of details 2 */
 
 
@@ -2183,12 +2229,12 @@ a:hover.back-to-top {
 	.tabs .tabs-container {
 		max-width: 88%;
 		margin-left: 2rem;
-		padding-top: 6.75rem;
+		/*padding-top: 6.75rem;*/
 		padding-bottom: 0;
 	}
 
 	.tabs .nav-tabs {
-		justify-content: flex-start;
+		/*justify-content: flex-start;*/
 	}
 	/* end of details 2 */
 
@@ -2340,13 +2386,24 @@ a:hover.back-to-top {
 
 	/* Details 2 */
 	.tabs .tabs-container {
-		max-width: 28rem;
-		margin-right: 5rem;
+		/*max-width: 28rem;*/
+		/*margin-right: 5rem;*/
 		margin-left: auto;
 	}
 
 	.tabs #tab-2 .media-wrapper.first {
 		margin-right: 2rem;
+	}
+
+	.tabs #tab-5 .media-wrapper.first {
+		margin-right: 2rem;
+	}
+
+	#ariaTabs{
+		position: relative;
+		width: 100%;
+		margin: auto;
+		text-align: center;
 	}
 	/* end of details 2 */
 
